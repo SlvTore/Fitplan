@@ -1,0 +1,61 @@
+.header {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+.header-content1 {
+    height: 45vw;
+    background: url("./bghomepage.png") no-repeat;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.moto {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 40%;
+    left: 30%;
+    color: white;
+    font-size: 33px;
+}
+
+.logoputih {
+    display: flex;
+    align-items: center;
+    margin-top: -75px;
+    padding-left: 540px;
+}
+
+.header-content2 {
+    height: 35vw;
+    display: flex;
+    align-items: center;
+    background-color: #8766FF;
+    margin-top: -80px;
+    border-radius: 0 0 14px 14px;
+}
+
+.slogan {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 40%;
+    left: 30%;
+    font-size: 33px;
+}
+
+.fiturutama {
+    display: flex;
+    align-items: center;
+    margin-top: -90px;
+    justify-content: space-around;
+}
+
+.fiturweb {
+    margin-bottom: 50px;
+}

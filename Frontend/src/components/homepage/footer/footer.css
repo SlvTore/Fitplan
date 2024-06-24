@@ -1,0 +1,81 @@
+.footer {
+    height: 23vw;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+.footer-content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0 50px;
+    border-bottom: 3px solid white;
+    margin: 0 80px;
+}
+
+.footer-title {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.footer-search {
+    width: 430px;
+    height: 90px;
+    color: black;
+    background-color: white;
+    border-radius: 14px;
+    padding: 15px 45px;
+}
+
+.search-title {
+    font-size: 16px;
+}
+
+.search-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-search {
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.search-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #7B58FE;
+    border: 0;
+}
+
+.search-btn:hover {
+    background-color: blueviolet;
+}
+
+.footer-content2 {
+    padding: 40px 10px;
+    margin: 20px auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-ccopyright {
+    display: flex;
+}
+
+.footer-copyright {
+    margin: 0 10px;
+}
+
+.footer-brandlogo {
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.main {
+    width: 95%;
+    height: 20vw;
+    margin: auto;
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main-text {
+    width: 50%;
+}
+
+.main-title {
+    font-size: 28px;
+    text-align: left;
+}
+
+.main-deks {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.getapp {
+    width: 200px;
+    height: 40px;
+    border-radius: 14px;
+    border: 0;
+    color: white;
+    background-color: #24387D;
+}
+
+.getapp:hover {
+    background-color: #2F4181;
+}
+
+.main-img {
+    width: 250px;
+    margin-right: 50px;
+}

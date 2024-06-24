@@ -1,0 +1,43 @@
+.navbar {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    gap: 320px;
+}
+
+.logo {
+    width: 120px;
+    padding-left: 45px;
+    cursor: pointer;
+}
+
+.menu-fitur {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.fitur-utama {
+    height: 35px;
+    width: 110px;
+    cursor: pointer;
+    border: 3px solid #8766FF;
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+    color: white;
+    background: transparent;
+}
+
+.fitur-utama:hover {
+    background-color: #8766FF;
+}
+
+.menu-akun {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+}

@@ -1,0 +1,56 @@
+.about-contact {
+    width: 95%;
+    height: 40vw;
+    position: relative;
+    border: 5px solid black;
+    color: black;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+    display: flex;
+}
+
+.about-contact-form h1 {
+    font-weight: 300;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.about-contact-form form input[type="name"],
+.about-contact-form form input[type="email"],
+.about-contact-form form input[type="subject"] {
+    width: 400px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.about-contact-form form input[type="message"] {
+    width: 400px;
+    height: 120px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.about-contact-form button {
+    width: 200px;
+    height: 40px;
+    border-radius: 14px;
+    border: 0;
+    color: white;
+    background-color: #24387D;
+    margin: 15px 0 0 100px;
+}
+
+.about-contact-form button:hover {
+    background-color: #3C3C3C;
+}
+
+.about-contact img {
+    display: flex;
+    height: 450px;
+}

@@ -1,0 +1,57 @@
+.section {
+    width: 95%;
+    height: 35vw;
+    margin: auto;
+    position: relative;
+    background-color: #7B58FE;
+    color: black;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-content {
+    margin-left: 65px;
+    width: 50%;
+}
+
+.section-title {
+    font-size: 23px;
+}
+
+.section-deks {
+    padding: 20px 0;
+}
+
+.section-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 14px;
+    border: 0;
+    color: white;
+    background-color: #24387D;
+    margin-left: 20px;
+}
+
+.section-btn:hover {
+    background-color: #2F4181;
+}
+
+.section-getapp {
+    padding: 40px 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section-app {
+    width: 130px;
+    padding-right: 15px;
+}
+
+.section-img {
+   width: 587px; 
+   border: 5px solid #7B58FE;
+   border-radius: 14px;
+}

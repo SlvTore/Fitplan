@@ -1,0 +1,52 @@
+.main-workouts {
+    width: 95%;
+    height: 40vw;
+    display: flex;
+    margin: auto;
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #3C3C3C;
+    border-radius: 14px;
+    margin-bottom: 50px;
+}
+
+.main-workouts-title {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+.main-workouts-menu {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    text-align: left;
+    margin: 20px 55px;
+    overflow-x: scroll;
+    padding-bottom: 50px;
+}
+
+.workouts-menu-list-img {
+    transition: 0.2s;
+    border-radius: 14px 14px 0 0;
+}
+
+.workouts-menu-list-workout {
+    background-color: white;
+    margin: -10px 0;
+    border-radius: 0 0 14px 14px;
+    padding-bottom: 30px;
+}
+
+.workouts-menu-list-item h1 {
+    padding: 10px;
+    font-size: 23px;
+}
+
+.workouts-menu-list-item p {
+    padding: 5px;
+    font-size: 16px;
+}

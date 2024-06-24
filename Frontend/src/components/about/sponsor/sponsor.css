@@ -1,0 +1,50 @@
+.sponsor {
+    width: 95%;
+    height: 33vw;
+    position: relative;
+    background-color: #7B58FE;
+    border-radius: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.sponsor-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-contents img {
+    display: flex;
+    margin-left: 70px;
+    height: 280px;
+}
+
+.about-sponsor-teks {
+    margin: 65px;
+    width: 40%;
+}
+
+.about-sponsor-teks p {
+    padding-bottom: 30px;
+}
+
+.about-sponsor-teks button {
+    width: 200px;
+    height: 40px;
+    border-radius: 14px;
+    border: 0;
+    color: white;
+    background-color: #24387D;
+}
+
+.about-sponsor-teks button:hover {
+    background-color: #3C3C3C;
+}
